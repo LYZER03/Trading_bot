@@ -1,5 +1,5 @@
 import sys
-sys.path.append("./live_tools")
+sys.path.append("./Trading_bot")
 import ccxt
 import ta
 import pandas as pd
@@ -16,7 +16,7 @@ current_time = now.strftime("%d/%m/%Y %H:%M:%S")
 print("--- Start Execution Time :", current_time, "---")
 
 f = open(
-    "./live_tools/secret.json",
+    "./Trading_bot/secret.json",
 )
 secret = json.load(f)
 f.close()
