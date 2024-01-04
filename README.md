@@ -7,7 +7,7 @@ git clone https://github.com/LYZER03/Trading_bot.git
 ```
 
 ```
-bash ./live_tools/install.sh
+bash ./Trading_bot/install.sh
 ```
 
 ## Source:
